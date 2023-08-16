@@ -1,0 +1,326 @@
+[
+    {
+        "info": {
+            "title": "Remind",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "loop_time",
+                "info": {
+                    "x": 560,
+                    "y": 241,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "eIzgRZCHKj",
+                    "milliseconds": "OUwpfdCI3u",
+                    "limit": "Pqcb28Ryll"
+                },
+                "outputs": {
+                    "action": [
+                        "NMIZjWoFfD"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 119,
+                    "y": 326,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "14400000"
+                },
+                "outputs": {
+                    "number": [
+                        "OUwpfdCI3u"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 119,
+                    "y": 113,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 242
+                },
+                "outputs": {
+                    "action": [
+                        "eIzgRZCHKj"
+                    ]
+                },
+                "inputs": {},
+                "options": {}
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1488,
+                    "y": 495,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 265
+                },
+                "inputs": {
+                    "action": "tJpPybihWL",
+                    "channel": "j6oONrFy7C",
+                    "text": "SdTyrhDirf",
+                    "embed": "DwctWtdoQN",
+                    "attachment": "DBioOjSUUv"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 947,
+                    "y": 375,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 435
+                },
+                "inputs": {
+                    "action": "NMIZjWoFfD",
+                    "server": "WR8o8fBlRp",
+                    "search_value": "MxR7U5DpdA"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [],
+                    "channel": [
+                        "j6oONrFy7C"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 304,
+                    "y": 490,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "study-reminder"
+                },
+                "outputs": {
+                    "text": [
+                        "MxR7U5DpdA"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1042,
+                    "y": 602,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "@everyone Remember to study!"
+                },
+                "outputs": {
+                    "text": [
+                        "SdTyrhDirf"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "Start-up",
+            "description": "This workspace is for understanding the mechanics of Discord Bot Builder.\n\nBy: Discord Bot Builder",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1444,
+                    "y": 338,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 265
+                },
+                "inputs": {
+                    "action": "ksoJ15yimx",
+                    "channel": "VPvCvfHMGI",
+                    "text": "dH3EZqxbTj",
+                    "embed": "tKqeph7cFP",
+                    "attachment": "A6fczE2f1b"
+                },
+                "outputs": {
+                    "action": [
+                        "tlMVERHia8"
+                    ],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 805,
+                    "y": 656,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 122,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Bot started"
+                },
+                "outputs": {
+                    "text": [
+                        "dH3EZqxbTj"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 504,
+                    "y": 105,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 242
+                },
+                "outputs": {
+                    "action": [
+                        "gG74iyZR8J"
+                    ]
+                },
+                "inputs": {},
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 250,
+                    "y": 318,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "study-reminder"
+                },
+                "outputs": {
+                    "text": [
+                        "weOOLsBPax"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 733,
+                    "y": 310,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 435
+                },
+                "inputs": {
+                    "action": "gG74iyZR8J",
+                    "server": "vXmAdnLfC3",
+                    "search_value": "weOOLsBPax"
+                },
+                "options": {
+                    "channel_type": "text",
+                    "find_channel_by": "name"
+                },
+                "outputs": {
+                    "action": [
+                        "ksoJ15yimx"
+                    ],
+                    "channel": [
+                        "VPvCvfHMGI",
+                        "CiNoDrJzUZ"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1691,
+                    "y": 723,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 265
+                },
+                "inputs": {
+                    "action": "tlMVERHia8",
+                    "channel": "CiNoDrJzUZ",
+                    "text": "lzFBVSBUBh",
+                    "embed": "Nz91c6wBy3",
+                    "attachment": "HTDYUekeoB"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1234,
+                    "y": 891,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "@everyone Remember to study!"
+                },
+                "outputs": {
+                    "text": [
+                        "lzFBVSBUBh"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    }
+]
